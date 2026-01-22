@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details-UCC Portal</title>
+    <link rel="stylesheet" href="form.css">
+   
+</head>
+<body>
+ <div class="form-container">
+    <center><img src="download.png" alt=""></center>
+    <h1>UNIVERSITY OF CAPE COAST</h1>
+    <P>Personal Inforamtion</P>
+    
+    <form id="contact-number" novalidate>
+
+        <div class="form-group">
+            <label for="fullname">Full Name:</label>
+            <input
+             type="text"
+             id="fullname"
+             name="fullname"
+             placeholder="e.g Yaw Owusu"
+             required>
+             <span class="error"></span>
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input 
+            type="text"
+             name="email"
+             id="email"
+             placeholder="e.g example@gmail.com" 
+             required>
+             <span class="error"></span>
+        </div>
+        <div class="form-group">
+            <label for="phone-number">Phone Number</label>
+            <input 
+            type="text"
+            name="phone-number"
+            id="phone-number"
+            placeholder="e.g 054 7500 825"
+            required>
+            <span class="error"></span>
+        </div>
+        <div class="form-form">
+           <label for="text-message">Your Message <br></label>
+           <textarea 
+           name="text-message" 
+           id="text-message"
+           rows="5"
+           placeholder="Tell us what's on your mind"></textarea>
+           <span class="error"></span>
+        </div>
+           <button type="sumit" id="sumit-bnt">Send Message</button>
+           <div class="form-message" id="form-message"></div>
+           <footer class="footer">&copy;2026 My mentor_Prof Jero</footer>
+ </form>
+ </div> 
+ <script src="form.js"></script>
+</body>
+</html>
